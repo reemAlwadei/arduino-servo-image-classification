@@ -119,22 +119,25 @@ arduino-servo-image-classification/
 4. Run the Python script.
 5. The predicted class and confidence percentage will appear in the output.
 
-## Results
+## Teachable Machine Test Results
 
-### Arduino Uno Result
+### Arduino Uno
+
+The model correctly recognized the Arduino Uno using the Teachable Machine testing interface.
 
 Predicted Class: Arduino Uno  
-Confidence: 100.00%
+Confidence: 100%
 
-![Arduino Uno Prediction Output](python_arduino_output.png)
+![Arduino Uno Teachable Machine Result](arduino_output.png)
 
-### Servo Motor Result
+### Servo Motor
+
+The model correctly recognized the Servo Motor using the Teachable Machine testing interface.
 
 Predicted Class: Servo Motor  
-Confidence: 100.00%
+Confidence: 100%
 
-![Servo Motor Prediction Output](python_servo_output.png)
-
+![Servo Motor Teachable Machine Result](servo_output.png)
 ## Conclusion
 
 This project demonstrates how image classification can be used to recognize robotics components. Google Teachable Machine was used to train the model, while Python and TensorFlow Keras were used to load the exported model and make predictions.
